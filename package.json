@@ -1,0 +1,15 @@
+{
+  "name": "mbio-qaengineer-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=pw:api playwright test --headed --project=Chromium && playwright test --headed --project=Firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0"
+  }
+}
